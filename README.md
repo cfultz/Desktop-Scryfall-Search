@@ -15,4 +15,4 @@ pip3 install requests
 ```
 
 ## Known Issues
-Currently, it does ***NOT*** work with double-sided cards. This will be fixed in future releases
+Currently, the flip button does ***NOT*** function fully. However, it works to flip dual sided cards.
