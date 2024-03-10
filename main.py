@@ -10,15 +10,17 @@ window.title("Scryfall Search - ALPHA")
 window.minsize(width=600, height=800)
 
 title = tkinter.Label(text="Scryfall Search", font=("Arial", 24, "bold"))
-title.pack(side=TOP) 
+title.pack(side=TOP, padx=10,pady=10) 
 
 mtg_card_back = Image.open("back.jpg").resize((388,580))
 mtg_card_back_img = ImageTk.PhotoImage(mtg_card_back)
 card_placeholder = tkinter.Label(image=mtg_card_back_img)
 card_placeholder.pack()
 
-input = Entry(width=150) 
-input.pack(side=TOP)
+
+
+input = Entry(width=50) 
+input.pack(side=TOP, padx=10,pady=10)
 
 
 def flip_card():
